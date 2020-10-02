@@ -11,7 +11,9 @@ function authorText(text) {
     index++;
 
     if (index > text.length) {
-        index = 0
+        setTimeout(() => {
+            index = 0
+        }, 3000);
     }
 }
 
